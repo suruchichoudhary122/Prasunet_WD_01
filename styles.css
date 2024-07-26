@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    text-decoration: none;
+    padding: 20px 20px;
+    display:block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.sectionn{
+    min-height: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+    
+}
+.sectionn h1{
+    color: #711e15;
+
+}
+.main-picture{
+    height: 250px;
+    width: auto;
+   
+
+}
+header{
+    position: sticky;
+    background-color: whitesmoke;
+    top: 0;
+    z-index: 1000;
+    width: 95%;
+    transition: background-color 0.3s ease;
+}
+
+
+nav ul li:hover {
+    background-color: rgb(176, 175, 175);
+    color: #a32121;
+    cursor: pointer;
+    
+    
+}
+
+.top{
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+  
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.dumbellimg{
+    width: 600px;
+    height: auto;
+    margin-top: 50px ;
+    border-style: none;
+    box-sizing: border-box;
+    
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+   
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.section4{
+    height: 20vh;
+    margin: 100px 100px;
+    padding: 200px 200px;
+    box-sizing: border-box;
+    
+
+}
+.contact-icons img{
+    height: 20px;
+    width: auto;
+    padding: 10px 10px;    
+    cursor: pointer;
+    
+}
